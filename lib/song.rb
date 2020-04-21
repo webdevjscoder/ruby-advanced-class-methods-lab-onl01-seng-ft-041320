@@ -29,7 +29,8 @@ class Song
   end
   
   def self.find_by_name(title)
-    result = self.find_by_name { |song| 
+    result = self.find_by_name { |song| song.name == name }
+    result
   end
 
 end
