@@ -38,7 +38,7 @@ class Song
     if result
       result
     else
-      
+      self.create_b
   end
   
   def self.alphabetical
