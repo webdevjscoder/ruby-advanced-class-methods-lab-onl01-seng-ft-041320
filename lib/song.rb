@@ -43,7 +43,7 @@ class Song
   end
   
   def self.alphabetical
-    
+    alphabetical_order = self.all.
   end
   
   def self.new_from_filename(filename)
